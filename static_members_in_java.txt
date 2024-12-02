@@ -1,0 +1,29 @@
+#Static Members
+
+public class Example{
+
+	int x; //Instance variable
+	static int y; //static member variable
+	
+	public void fun1{} //instance memebr fucntion
+	public static void fun2{} //static memeber function
+	
+	static class Test{
+	}
+	
+	public static void main(String [] args){
+		Example ex1 = new Example();
+		ex1.x; //can be access through objects
+		Example.y=5; //can be access through object as well as class
+	}
+}
+	#Static Variables
+		1. Static variables are declared in the class using keyword static
+		2. Static variables are by default initialized to its default value
+		3. Static variables has a single copy for the whole class and does not depend on the objects
+	
+	#Static Function
+		1. Static functions defined inside the class are qualified with the keyword static
+		2. Static function can only access static members of the same class
+		3. Static fucntion can be invoked using class name and dot operator
+		

@@ -1,0 +1,22 @@
+#Type conversion
+
+int x = 3
+float y = x //widening conversion - no error
+
+float x =3.4f;
+int y = x  //narrowing conversion - error
+
+int y = (int)x; no error
+
+float = 3.4 //narrowing conversion - error
+
+float = 3.4f //no error
+
+#Permitted conversion
+	byte to short,int,long,float, or double
+	short to int, long, float or double
+	char to int, long, float or double
+	int to long, float, or double
+	long to float or double
+	float to double
+	
